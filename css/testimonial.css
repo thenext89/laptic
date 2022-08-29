@@ -1,0 +1,119 @@
+.wrapper-testimonial {
+    max-width: 1920px;
+    height: 988px;
+}
+
+.testimonial-container {
+    max-width: 1230px;
+    padding: 155px 30px 0 30px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.testimonial-large-title p {
+    font-family: Sair bold;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    margin: 0;
+}
+
+.testimonial-large-title p::before {
+    content: "";
+    display: block;
+    width: 198px;
+    height: 15px;
+    position: absolute;
+    background-image: url(../image/testimonal/effect-under-text.png);
+    top: 65px;
+    left: 580px;
+}
+
+.testimonial-small-title p {
+    font-family: Poppins regular;
+    font-size: 20px;
+    opacity: 0.8;
+    text-align: center;
+    margin: 0;
+    margin-top: 2px;
+}
+
+.testimonial-content-bot {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    /* padding: 0 30px; */
+}
+
+.testimonial-container-bot-left {
+    padding: 0 27px 0 0 !important;
+}
+
+.testimonial-content-bot-left {
+    position: relative;
+    background-color: #f3fafc;
+    height: 100%;
+    padding-top: 75px;
+    padding-left: 30px;
+    padding-right: 12px;
+}
+
+.testimonial-container-bot-right {
+    padding-left: 27px !important;
+    /* margin-right: 30px; */
+}
+
+.testimonial-content-bot-right {
+    background-color: #fff8ee;
+    position: relative;
+    height: 100%;
+    padding-top: 75px;
+    padding-left: 12px;
+    padding-right: 30px;
+}
+
+.testimonial-avatar {
+    display: flex;
+}
+
+.testimonial-avatar img:first-child {
+    width: max-content;
+    height: max-content;
+    margin-top: -10px;
+}
+
+.testimonial-avatar img:last-child {
+    margin-top: 16px;
+    margin-left: 145px;
+    width: max-content;
+    height: max-content;
+}
+
+.testimonial-avatar-title p:first-child {
+    font-family: Poppins semibold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.testimonial-avatar-title p:last-child {
+
+    font-family: Poppins regular;
+    font-size: 16px;
+    color: #060315;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
+.testimonial-title p {
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+.testimonial-title {
+    font-family: Poppins regular;
+    font-size: 20px;
+    opacity: 0.8;
+    margin-top: 35px;
+    padding-left: 12px;
+    margin-bottom: 90px;
+}

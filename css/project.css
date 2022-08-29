@@ -1,0 +1,126 @@
+.wrapper-project{
+    max-width: 1920px;
+    height: 1416px;
+    background-color: #f3fafc;
+    padding-top: 5px;
+    display: block;
+}
+.project-container{
+
+}
+.project-content{
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.container-image{
+    max-width: 1920px !important;
+    height: auto;
+
+}
+.project-content-top{
+    padding-top: 115px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto !important;
+}
+.project-content-top .project-large-title::before{
+    width: 249px;
+    height: 17px;
+    display: block;
+    position:absolute;
+    content: "";
+    background-image: url(../image/Project/under-text.png);
+    top: 120px;
+    left: 185px;
+}
+.project-content-top .project-large-title:last-child{
+    position: relative;
+    width: max-content;
+}
+.project-large-title{
+    font-family: Sair bold;
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.1;
+    position: relative;
+}
+.project-small-title{
+    font-family: Poppins medium;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 45px !important;
+    padding:0 20px !important;
+}
+.project-image{
+    letter-spacing: 0;
+    display: flex;
+}
+.project-image>div{
+    padding: 0 !important;
+}
+.image-content-title{
+    font-family: Sair semibold;
+    font-size: 36px;
+    margin: 30px auto 0 auto;
+    width: max-content;
+}
+.image-content-text{
+    font-family: Poppins regular;
+    font-size: 16px;
+    margin: 0 auto;
+    width: max-content;
+}
+.boat1{
+    position: relative;
+}
+.boat1:hover .project-image-content{
+    display: block;
+}
+.project-image-content{
+    display: none;
+    position: absolute;
+    width: 480px;
+    height: 188px;
+    background-color: #fff;
+    opacity: 0.8;
+    transform: translateY(-100%);
+    transition: all 1s ease;
+}
+.project-content-bot{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    max-width: 1230px;
+    margin: 135px auto 0 auto !important;
+}
+.project-text p{
+    margin: 0;
+    font-family: Poppins medium;
+    font-size: 28px;
+}
+.project-button{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.project-button button{
+    width: 220px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    padding:0;
+    text-decoration: underline;
+    background-color: #51cfee;
+    font-family: Poppins medium;
+    font-size: 18px;
+    color: #fff;
+    transition: all 1s ease;
+}
+.project-button button:hover{
+    background-color: red;
+
+}
+.project-image img{
+    max-width: 480px;
+}

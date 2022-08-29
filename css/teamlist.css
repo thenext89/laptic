@@ -1,0 +1,113 @@
+.wrapper-teamlist{
+    max-width: 1920px;
+    height: 838px;
+}
+.teamlist-container{
+    margin: 0 auto;
+}
+.teamlist-content{
+    margin:0 auto;
+    max-width: 1230px;
+    padding: 140px 30px 0 30px;
+    position: relative;
+}
+.teamlist-title{
+    font-family: Sair bold;
+    font-size: 60px;
+    text-align: center;
+    width: max-content;
+    margin: 0 auto;
+    position: relative;
+}
+.teamlist-title::before{
+    content: "";
+    width: 159px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    top: 65px;
+    right: -10px;
+    background-image: url(../image/teamlist/under-text.png);
+}
+.teamlist-text{
+    font-family: Poppins medium;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.7;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+.teamlist-image-container{
+    max-width: 1570px;
+    margin: 0 auto;
+}
+.teamlist-image-item{
+    width: max-content;
+}
+.teamlist-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+.teamlist-image>div{
+    /* margin: 0 15px; */
+    padding: 0 15px;
+    position: relative;
+}
+.teamlist-image-item:hover .teamlist-hover{
+    max-height:200px;
+    /* transform: translateY(-150%); */
+    transition: all 0.5s ease;
+    transform: translateY(-125%);
+}
+.teamlist-hover{
+    position: absolute;
+    width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    margin: 0 auto;
+    /* left: 20%; */
+    
+}
+.hover-title{
+    font-family: Poppins medium;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+.hover-text{
+    text-align: center;
+    font-family: Poppins regular;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 2px;
+}
+.hover-social
+{
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+}
+.hover-social #teamlist-facebook{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ff3f41;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6px;
+}
+.hover-social #teamlist-ins{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #51cfee;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6px;
+}
+.hover-social i{
+    color: #fff;
+}

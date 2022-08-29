@@ -1,0 +1,44 @@
+/* font chữ */
+
+@font-face {
+    font-family: Poppins medium;
+    src: url(../font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: Poppins regular;
+    src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto regular;
+    src: url(../font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Opensans regular;
+    src: url(../font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Glossandbloom regular;
+    src: url(../font/Gloss_And_Bloom.ttf);
+}
+@font-face {
+    font-family: Sair bold;
+    src: url(../font/saira-extracondensed.bold.ttf);
+}
+@font-face {
+    font-family: Poppins semibold;
+    src: url(../font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: Sair semibold;
+    src: url(../font/SairaExtraCondensed-SemiBold.ttf);
+}
+a{
+    text-decoration: none !important;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color: #fffdfa;
+    max-width: 1920px;
+}

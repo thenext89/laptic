@@ -1,0 +1,90 @@
+.wrapper-archive{
+    max-width: 1920px;
+    background-color: #fff8ee;
+    /* background-color: aqua; */
+    position: relative;
+    height: 692px;
+}
+.archive-container{
+    max-width: 1230px;
+    padding: 110px 30px 0 30px;
+    margin: 0 auto;
+    position: relative;
+}
+.archive-content-right{
+    padding-left: 75px;
+}
+.archive-content{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.archive-large-title p{
+    font-family: Sair bold;
+    font-size: 65px;
+    line-height: 1.1;
+}
+.archive-small-title p{
+    font-family: Poppins regular;
+    font-size: 20px;
+    opacity: 0.7;
+    margin: 2px 0 0 0;
+}
+.archive-small-title{
+    margin-top: 40px;
+}
+.archive-btn{
+    font-family: Poppins medium;
+    font-size: 18px;
+    padding: 0;
+    width: 100%;
+    margin-top: 60px;
+}
+.archive-btn button{
+    width: 221px;
+    height: 64px;
+    border: none;
+    background-color: #ff3f41;
+    border-radius: 3px;
+    color: #fff;
+}
+.content-right1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-right2{
+    padding-left: 30px;
+}
+.archive-content-right{
+    display: flex;
+}
+.box-content .title{
+    font-family: Sair semibold;
+    font-size: 28px;
+    margin: -20px 0 0 0;
+}
+.content-right-box{
+    width: 238px;
+    height: 245px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+.box-content{
+    margin-left: 30px;
+    border-radius: 3px;
+}
+.box-content p:last-child{
+    font-family: Poppins regular;
+    font-size: 16px;
+}
+.box-content p:nth-child(2){
+    font-family: Sair bold;
+    font-size: 54px;
+    margin: 0;
+}
+.box-content p span{
+    font-size: 18px;
+}

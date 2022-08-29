@@ -1,0 +1,226 @@
+.wrapper-header{
+    max-width: 1920px;
+    padding:0;
+}
+.header-top-container{
+    background-color: #152c6d;
+    color: #ffffff;
+    height: 56px;
+    padding: 0 100px;
+}
+.header-top-left{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 56px;
+    justify-content: left;
+    padding:0px;
+}
+.header-top-right{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 56px;
+    justify-content: right;
+    padding: 0px;
+}
+.header-top-text{
+    font-family: Poppins regular;
+    font-size: 16px;
+}
+/* Header mobile  */
+.header-mobile{
+    position: absolute;
+    left: 10px;
+    display: none;
+}
+.header-mobile .menu-bar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    height: 55px;
+    width: max-content;
+    z-index: 1;
+}
+
+/* hover  */
+.header-mobile .menu-bar:hover span{
+    background-color:#a94e73;
+}
+.header-mobile .menu-bar:hover span::before{
+    background-color:#a94e73;
+}
+.header-mobile .menu-bar:hover span::after{
+    background-color:#a94e73;
+}
+/* active  */
+.header-mobile .menu-bar.active {
+	position: fixed;
+	/* top: 30px */
+	left: 0;
+    top:0;
+    border-left: 1px solid #d8d4d6;
+	transform: translateX(250px);
+	z-index: 2;
+
+}
+.menu-items.active{
+    transform: translateX(0);
+    transition: all 0.3s ease;
+    
+}
+.header-mobile .menu-bar.active span{
+    background-color: transparent;
+}
+.header-mobile .menu-bar.active span::before{
+    transform: rotate(-135deg);
+}
+.header-mobile .menu-bar.active span::after{
+    transform: rotate(135deg);
+}
+/* =================== */
+.header-mobile .menu-bar span{
+    position: relative;
+    height: 2px;
+    width: 30px;
+    content: "";
+    /* color: #a8a1a4; */
+    background-color: black;
+    display: block;
+    transition: ease 0.3s ;
+}
+.header-mobile .menu-bar span::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+    transform: translateY(10px);
+    background-color: black;
+    transition: ease 0.3s ;
+    
+}
+.header-mobile .menu-bar span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+    transform: translateY(-10px);
+    background-color: black;
+    transition: ease 0.3s ;
+}
+.menu-items{
+    position: fixed;
+	width: 300px;
+	height: 100%;
+	background-color: #fff;
+	left: 0;
+	top: 0;
+	padding:37px 20px;
+    z-index: 1;
+	transform:translateX(-150%);
+    box-shadow: 0 10px #260a10;
+}
+.menu-items ul li{
+    margin-top: 10px;
+    height: 50px;
+    border-top: 1px solid #d8d4d6;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item a{
+    font-size: 18px;
+    color: black;
+    font-family: Poppins regular;
+}
+.header-top-right::before{
+    content: "0";
+    position: absolute;
+    color: #000;
+    background-color:#fff ;
+    font-size: 10px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    right: 88px;
+    top:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Futura-medium, sans-serif;
+}
+/*    Header bot css    */
+.header-bot-container{
+    padding:0 100px;
+    height:114px;
+    background-color: #fff;
+}
+.header-bot{
+    height: 114px;
+    align-items: center;
+}
+.header-bot-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-bot-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    width: 685px;
+}
+.header-bot-nav .head{
+    display: flex;
+    justify-content: center;
+    width: 75px;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+.header-bot-nav ul li:not(:first-child){
+    /* margin-left: 30px; */
+}
+.header-bot-nav ul li a{
+    color: #060315;
+    font-size: 18px;
+    font-family: Poppins medium;
+}
+/*   header search   */
+.header-bot-search{
+    height: 115px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.phone,.title-phone{
+    margin-right: 10px;
+}
+
+.title-top{
+    font-family: Roboto regular;
+    font-size: 15px;
+}
+.title-number{
+    font-family: Poppins medium;
+    font-size: 24px;
+}
+.btn-search{
+    height: 63px;
+    width: 63px;
+    background-color: #ff3f41;
+    border-radius: 50%;
+    justify-content: center;
+}
+.btn-search button{
+    border: none;
+    background-color: #ff3f41;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}

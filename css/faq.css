@@ -1,0 +1,104 @@
+.wrapper-faq{
+    max-width: 1920px;
+    height: 715px;
+    display:block;
+}
+.faq-container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.faq-content{
+    padding-top: 183px;
+    display: flex;
+}
+.faq-content-left-title{
+    font-family: Sair bold;
+    font-size: 65px;
+    margin: 0px;
+    line-height: 1.1;
+}
+.faq-content-left-textlarge{
+    font-family: Poppins regular;
+    font-size: 20px;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+
+#faq-content-left .text p{
+    font-family: Poppins regular;
+    font-size: 16px;
+    margin-bottom: 18px;
+    line-height: 1.7;
+    opacity: 0.8;
+}
+#faq-content-left .text:first-child i{
+    margin-top:6px;
+}
+.faq-content-right{
+    padding-left: 12px;
+    padding-top: 36px;
+}
+.faq-accordion-item:not(:last-child){
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 34px;
+    box-shadow: 5px 0px 0px rgba(0,0,0,.1);
+}
+.faq-accordion-item a{
+    background-color: #f8eeed;
+}
+.faq-accordion-item:target .answer{
+    max-height:200px;
+}
+.faq-accordion-item:target .accordion-link .fa-minus{
+    display: block;
+}
+.faq-accordion-item:target .accordion-link .fa-plus{
+    display: none;
+}
+.faq-accordion-item:target .accordion-link{
+    background-color: #ff3f41;
+    color: #fff;
+}
+.accordion-link{
+    color: rgba(0,0,0,.8);
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    padding:10px 22px;
+    font-family: Poppins medium;
+    font-size: 18px;
+}
+.accordion-link i{
+    color:#acaaaf;
+    padding: 5px;
+    
+}
+.accordion-link .fa-minus{
+    display: none;
+}
+.answer{
+    max-height: 0px;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    transition: all 0.8s;
+    padding: 0 22px;
+}
+.answer p{
+    margin: 0px;
+    font-family: Poppins regular;
+    font-size: 16px;
+    color: black;
+    opacity: 0.7;
+}
+.answer p:first-child{
+    margin-top: 32px;
+}
+.answer p:last-child{
+    margin-bottom: 8px;
+}

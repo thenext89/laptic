@@ -1,0 +1,424 @@
+@media(max-width:1500px) {
+    .footer-effect {
+        display: none;
+    }
+
+    /* Banner  */
+    .wrapper-banner {
+        height: auto;
+    }
+
+    /* Who  */
+    .wrapper-who {
+        height: auto;
+    }
+
+    .who-effect {
+        display: none;
+    }
+    /* Project  */
+    .wrapper-project{
+        height: auto;
+    }
+    /* Team list  */
+    .wrapper-teamlist{
+        height: auto;
+    }
+
+}
+
+@media(max-width:1400px) {
+
+    /* Footer  */
+    .footer-services-container {
+        margin: 0;
+    }
+
+    .footer-address-container {
+        margin: 0;
+    }
+
+    /* Project  */
+    .boat1,
+    .truck {
+        display: flex;
+        justify-content: flex-end;
+    }
+    /* Team list  */
+    .teamlist-image>div .teamlist-image-item{
+        margin: 30px auto;
+    }
+    .teamlist-hover{
+        width: 370px;
+    }
+}
+
+@media (max-width:1200px) {
+
+    /* Header  */
+    .header-top-container {
+        display: none;
+    }
+
+    .header-bot-container {
+        padding: 0px;
+    }
+
+    .header-bot-search-container {
+        display: none;
+    }
+
+    .header-bot-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Footer  */
+    .wrapper-footer {
+        height: auto;
+    }
+
+    .footer-logo-container {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-logo {
+        margin-top: 10px;
+    }
+
+    .footer-social {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .footer-services-container {
+        margin: 0;
+    }
+
+    .footer-address-container {
+        margin: 0;
+    }
+
+    .footer-copyright p {
+        margin-left: 12px;
+    }
+
+    .footer-about {
+        margin-right: 12px;
+    }
+
+    /* Banner  */
+    /* Who ============== */
+    .who-content-right {
+        display: none;
+    }
+
+    .who-content-left {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .who-other {
+        justify-content: center;
+    }
+
+    .who-text-lage p:nth-child(2) {
+
+        margin-top: -10px;
+    }
+
+    .who-text-lage p:nth-child(2)::before {
+        display: none;
+    }
+
+    .who-text-small {
+        font-size: 1rem;
+    }
+
+    /* Services ===================== */
+    .wrapper-services {
+        height: auto;
+    }
+
+    .effect-services {
+        display: none;
+    }
+
+    .services-large-title p::before {
+        display: none;
+    }
+
+    .services-container {
+        padding: 30px 30px 0 30px;
+    }
+
+    .list-1,
+    .list-2,
+    .list-3 {
+        padding: 0 !important;
+        margin: 0 auto !important;
+    }
+
+    /* Archive  */
+    .wrapper-archive {
+        height: auto;
+    }
+
+    .archive-effect {
+        display: none;
+    }
+
+    .archive-large-title {
+        text-align: center;
+    }
+
+    .archive-small-title {
+        text-align: center;
+    }
+
+    .archive-content-right {
+        display: none;
+    }
+
+    .archive-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* International  */
+    .wrapper-international {
+        height: auto;
+    }
+
+    .international-container {
+        padding: 100px 30px 50px 30px !important;
+    }
+
+    .international-effect {
+        display: none;
+    }
+
+    .international-content-left {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        margin: 0 auto;
+    }
+
+    .international-content .international-large-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .international-right-content-top .international-large-title {
+        display: none;
+    }
+
+    .international-right-content-top .international-large-title p {
+        text-align: center;
+    }
+
+    /* Testimonial  */
+    .wrapper-testimonial {
+        height: auto;
+    }
+
+    .testimonial-container {
+        padding-top: 50px;
+    }
+
+    .testimonial-container-bot-right {
+        margin-top: 30px !important;
+    }
+
+    .testimonial-large-title p::before {
+        display: none;
+    }
+    /* Project  */
+    .project-content-top .project-large-title::before {
+        display: none;
+    }
+    /* FAQ  */
+    .wrapper-faq{
+        height: auto;
+    }
+    .faq-content{
+        padding-top: 50px;
+    }
+    .faq-content-left-title{
+        text-align: center;
+    }
+    .faq-content-left-textlarge{
+        text-align: center;
+    }
+    #faq-content-left .text{
+        padding: 0 50px;
+    }
+    /* new list  */
+    .wrapper-newlist{
+        height: auto;
+    }
+    .content-bot-type,.content-title-bot,.content-text-bot p{
+        text-align: center;
+    }
+    .newlist-content-image{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:992px) {
+
+    /* Banner  */
+    .text-lage p {
+        font-size: 6rem;
+    }
+
+    .text-lage p:first-child::before {
+        display: none;
+    }
+
+    /* Project  */
+    .boat1,
+    .boat2,
+    .truck,
+    .airplane {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-button {
+        justify-content: center;
+        margin: 30px 0 !important;
+    }
+
+    .project-text p {
+        text-align: center;
+    }
+    
+}
+
+@media(max-width:768px) {
+
+    /* Header  */
+    .header-bot-nav {
+        display: none;
+    }
+
+    .header-mobile {
+        display: block;
+    }
+
+    /* Banner  */
+    .banner-content {
+        padding: 0;
+    }
+
+    .banner-container {
+        padding: 20px 30px 0 30px;
+        margin: 0px;
+    }
+
+    .text-lage p {
+        font-size: 5rem;
+    }
+
+    .text-lage p:last-child {
+        margin-top: -6px;
+    }
+
+    /* Services ================== */
+    /* International  */
+    .international-large-title p{
+        text-align: center;
+    }
+    /* News list */
+    .newlist-title-top, .newlist-text-top, .newlist-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .newlist-btn{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:576px) {
+    /* Footer  */
+    .footer-services-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-address-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-links-container {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-services-content{
+        padding-top: 30px;
+    }
+    .footer-address-container .footer-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-copyright p {
+        /* position: relative; */
+        width: max-content;
+    }
+
+    .footer-about {
+        overflow: hidden;
+        max-height: 0px;
+    }
+
+    /* ======================================== Banner  =========================================*/
+    .text-lage p {
+        font-size: 4rem;
+    }
+
+    /* Who =================== */
+    .see-more-about::before {
+        display: none;
+    }
+
+    .who-text-lage p:nth-child(1) {
+        font-size: 3rem;
+    }
+
+    .who-text-lage p:nth-child(2) {
+        font-size: 3rem;
+    }
+
+    /* International ====================== */
+    .international-content-left {
+        display: none;
+    }
+
+    /* testimonial  */
+    .testimonial-avatar img:last-child {
+        display: none;
+    }
+
+    .project-text p {
+        font-size: 1.5rem !important;
+        text-align: center;
+    }
+    /* FAQ  */
+    .faq-content-left-title{
+        font-size: 40px;
+    }
+    #faq-content-left .text{
+        padding: 0;
+    }
+    /* Team list  */
+    .wrapper-teamlist{
+        display: none;
+    }
+}

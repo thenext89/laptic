@@ -1,0 +1,90 @@
+.wrapper-banner{
+    max-width: 1920px;
+    height: 920px;
+    background-image: url('../image/banner/banner.png');
+}
+.banner-container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.banner-content{
+    padding-top: 180px;
+}
+.btn-play{
+    display: flex;
+    align-items: center;
+}
+.btn-play p{
+    width: auto;
+    margin: 0;
+    font-family: Glossandbloom regular;
+    font-size: 24px;
+}
+.btn-play button{
+    width: 74px;
+    height: 74px;
+    background-color: #51cfed;
+    border: none;
+    border-radius: 50%;
+}
+.text-lage p{
+    font-family: Sair bold;
+    margin: 0px;
+    font-size: 120px;
+    position: relative;
+    /* width: max-content; */
+}
+.text-lage p:first-child::before{
+    content: "";
+    background-image: url(../image/banner/under-text.png);
+    width: 255px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 132px;
+}
+.text-lage p:last-child{
+    margin-top: -60px;
+}
+.text-small{
+    padding: 15px 0 0 0;
+    margin-bottom: 65px;
+    /* width: max-content; */
+}
+.text-small p{
+    font-family: Poppins regular;
+    font-size: 20px;
+    margin: 0;
+    /* width: max-content; */
+}
+.btn-meet{
+    width: 235px;
+    height: 67px;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn-meet button{
+    height: 65px;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #ff3f41;
+}
+.btn-meet p{
+    width: 150px;
+    margin: 0;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: Poppins medium;
+    font-size: 18px;
+    color: #fff;
+    border-right: 1px solid #fff;
+    margin-left: 10px;
+}
