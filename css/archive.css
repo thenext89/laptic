@@ -48,6 +48,10 @@
     border-radius: 3px;
     color: #fff;
 }
+.archive-btn button:hover{
+    background-color: aqua;
+    transition: all 1s ease;
+}
 .content-right1{
     display: flex;
     justify-content: center;

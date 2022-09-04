@@ -39,11 +39,19 @@
     border: none;
     border-radius: 5px;
     color: rgba(255, 255, 255, 0.9);
+    transition: ease all 1s;
     
+}
+.newlist-btn button:hover{
+    background-color: aqua;
 }
 .newlist-content-image{
     position: relative;
 
+}
+.newlist-image{
+    max-width: fit-content;
+    margin: 0 auto;
 }
 .newlist-hover:hover{
     background-color: #51cfee;

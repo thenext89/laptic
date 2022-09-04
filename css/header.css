@@ -224,3 +224,7 @@
     width: 100%;
     height: 100%;
 }
+/* update hover  */
+.header-bot-nav a:hover{
+    color: #ff3f41;
+}

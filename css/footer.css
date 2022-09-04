@@ -85,8 +85,6 @@
 .footer-services-container .footer-link{
     padding-left: 35px;
 }
-.footer-links-container{
-}
 .footer-link ul{
     padding: 0;
 }
@@ -200,4 +198,12 @@
 }
 .footer-about a:not(:last-child){
     margin-right: 12px;
+}
+/* hover update  */
+.footer-social>div:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.footer-content a:hover{
+    color:rgb(230, 122, 34);
 }

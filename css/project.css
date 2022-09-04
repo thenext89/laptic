@@ -71,21 +71,22 @@
     margin: 0 auto;
     width: max-content;
 }
-.boat1{
+.boat1,.boat2,.truck,.airplane{
     position: relative;
 }
-.boat1:hover .project-image-content{
-    display: block;
+.image-hover:hover .project-image-content{
+    max-height: 500px;
 }
 .project-image-content{
-    display: none;
     position: absolute;
     width: 480px;
     height: 188px;
     background-color: #fff;
     opacity: 0.8;
-    transform: translateY(-100%);
-    transition: all 1s ease;
+    bottom: 0;
+    transition: all 2s ease;
+    max-height: 0;
+    overflow: hidden;
 }
 .project-content-bot{
     display: flex;

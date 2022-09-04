@@ -72,7 +72,10 @@
         display: flex;
         justify-content: center;
     }
+    .text-lage{
+        line-height: 1;
 
+    }
     /* Footer  */
     .wrapper-footer {
         height: auto;
@@ -110,7 +113,13 @@
     }
 
     /* Banner  */
+    .text-lage p:first-child::before {
+        display: none;
+    }
     /* Who ============== */
+    .who-container{
+        padding-top: 30px;
+    }
     .who-content-right {
         display: none;
     }
@@ -132,7 +141,9 @@
     .who-text-lage p:nth-child(2)::before {
         display: none;
     }
-
+    .who-text-lage{
+        line-height: 1;
+    }
     .who-text-small {
         font-size: 1rem;
     }
@@ -160,12 +171,16 @@
         padding: 0 !important;
         margin: 0 auto !important;
     }
-
+    .services-large-title p{
+        line-height: 1;
+    }
     /* Archive  */
     .wrapper-archive {
         height: auto;
     }
-
+    .archive-container{
+        padding-top: 30px;
+    }
     .archive-effect {
         display: none;
     }
@@ -185,6 +200,7 @@
     .archive-btn {
         display: flex;
         justify-content: center;
+
     }
 
     /* International  */
@@ -193,7 +209,7 @@
     }
 
     .international-container {
-        padding: 100px 30px 50px 30px !important;
+        padding: 50px 30px 50px 30px !important;
     }
 
     .international-effect {
@@ -236,6 +252,15 @@
     .testimonial-large-title p::before {
         display: none;
     }
+    .testimonial-large-title{
+        line-height: 1;
+    }
+    .testimonial-content-bot-left,.testimonial-content-bot-right{
+        padding: 0 15px;
+    }
+    .testimonial-container-bot-left,.testimonial-container-bot-right{
+        padding: 0 !important;
+    }
     /* Project  */
     .project-content-top .project-large-title::before {
         display: none;
@@ -260,6 +285,12 @@
     .wrapper-newlist{
         height: auto;
     }
+    .newlist-container{
+        padding-top: 30px;
+    }
+    .newlist-content-top{
+        padding:0;
+    }
     .content-bot-type,.content-title-bot,.content-text-bot p{
         text-align: center;
     }
@@ -275,11 +306,10 @@
         font-size: 6rem;
     }
 
-    .text-lage p:first-child::before {
-        display: none;
-    }
-
     /* Project  */
+    .container-image{
+        margin-top: 20px !important;
+    }
     .boat1,
     .boat2,
     .truck,
@@ -296,7 +326,10 @@
     .project-text p {
         text-align: center;
     }
-    
+    /* new list  */
+    .wrapper-newlist .effect{
+        display: none;
+    }
 }
 
 @media(max-width:768px) {
@@ -341,6 +374,12 @@
     }
     .newlist-btn{
         margin-top: 20px;
+    }
+    .newlist-text-top {
+        text-align: center;
+    }
+    .newlist-container-bot{
+        margin-top: 30px !important;
     }
 }
 
@@ -395,30 +434,91 @@
     .who-text-lage p:nth-child(2) {
         font-size: 3rem;
     }
-
+    /* services  */
+    .services-large-title{
+        font-size: 50px;
+    }
+    /* archive  */
+    .archive-large-title p{
+        font-size: 50px;
+        line-height: 1;
+    }
     /* International ====================== */
     .international-content-left {
         display: none;
     }
-
+    .international-large-title p{
+        font-size: 50px;
+        list-style: 1;
+    }
+    .international-small-title p{
+        text-align: center;
+    }
     /* testimonial  */
     .testimonial-avatar img:last-child {
         display: none;
     }
-
+    .testimonial-large-title p{
+        font-size: 50px;
+        line-height: 1;
+    }
+    /* project  */
     .project-text p {
         font-size: 1.5rem !important;
         text-align: center;
     }
+    .project-large-title {
+        font-size: 50px !important;
+    }
+    .project-content-top{
+        padding-top: 30px;
+    }
+    .project-image img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .project-content-bot{
+        margin-top: 50px !important;
+    }
     /* FAQ  */
     .faq-content-left-title{
-        font-size: 40px;
+        font-size: 50px;
     }
     #faq-content-left .text{
         padding: 0;
     }
+    .accordion-link{
+        height: auto;
+    }
     /* Team list  */
     .wrapper-teamlist{
+       height: auto;
+    }
+    .teamlist-content{
+        padding-top: 30px;
+    }
+    .teamlist-title::before{
         display: none;
+    }
+    .teamlist-title{
+        width: fit-content;
+        line-height: 1;
+        font-size: 50px;
+    }
+    .teamlist-image-item img{
+        object-fit: cover;
+        width: 100%;
+    }
+    /* new list  */
+    .newlist-btn{
+        margin-top: 20px !important;
+    }
+    .newlist-title-top{
+        font-size: 50px;
+        line-height: 1;
+    }
+    .newlist-image img{
+        width: 100%;
+        object-fit: cover;
     }
 }
